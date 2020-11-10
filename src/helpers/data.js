@@ -1,5 +1,5 @@
 const random = (arr) => {
-    return arr[Math.floor(Math.random() * arr.length)];
+    return arr[Math.floor(Math.random())];
 };
 const size = () => {
     return (['Extra Small', 'Small', 'Medium', 'Large', 'Extra Large']);
