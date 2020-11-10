@@ -10,7 +10,7 @@ const color = () => {
 };
 
 const designer = () => {
-    return ([
+    return random ([
         'Cashmere',
         'Cardigans',
         'Crew and Scoop',
@@ -21,7 +21,7 @@ const designer = () => {
 };
 
 const type = () => {
-    return ([
+    return random ([
         'Cashmere',
         'Cardigans',
         'Crew and Scoop',
