@@ -11,16 +11,8 @@ const color = () => {
 
 const designer = () => {
     return ([
-        'Ralph Lauren',
-        'Alexander Wang',
-        'Grayse',
-        'Marc NY Performance',
-        'Scrapbook',
-        'J Brand Ready to Wear',
-        'Vintage Havana',
-        'Neiman Marcus Cashmere Collection',
-        'Derek Lam 10 Crosby',
-        'Jordan'
+        {"uname":Ralph Lauren},
+        {"uname":Ralph Laurens},
     ]);
 };
 
