@@ -1,17 +1,16 @@
 const random = (arr) => {
     return arr[Math.floor(Math.random() * arr.length)];
 };
-
 const size = () => {
-    return random(['Extra Small', 'Small', 'Medium', 'Large', 'Extra Large']);
+    return (['Extra Small', 'Small', 'Medium', 'Large', 'Extra Large']);
 };
 
 const color = () => {
-    return random(['Red', 'Green', 'Blue', 'Orange', 'Yellow']);
+    return (['Red', 'Green', 'Blue', 'Orange', 'Yellow']);
 };
 
 const designer = () => {
-    return random([
+    return ([
         'Ralph Lauren',
         'Alexander Wang',
         'Grayse',
@@ -26,7 +25,7 @@ const designer = () => {
 };
 
 const type = () => {
-    return random([
+    return ([
         'Cashmere',
         'Cardigans',
         'Crew and Scoop',
