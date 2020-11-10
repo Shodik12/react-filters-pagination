@@ -68,30 +68,7 @@ class App extends Component {
                 <section className='section'>
                     <div className='container'>
                         <div>
-                            <div className="field is-grouped" style={{alignItems: "center"}}>
-                                <div className="control">
-                                    <div className="select">
-                                        <select onChange={e => {
-                                            this.sortByInput(e)
-                                        }}>
-                                            <option value="" disabled selected>Sort by</option>
-
-                                            <option value='alphabet_asc'>Name - A-Z</option>
-                                            <option value='alphabet_desc'>Name - Z-A</option>
-
-                                            <option value='price_asc'>Price - Lowest to Highest</option>
-                                            <option value='price_desc'>Price - Highest to Lowest</option>
-
-                                        </select>
-                                    </div>
-                                </div>
-
-                                <div className='control' style={{minWidth: "300px"}}>
-                                    <input onChange={e => {
-                                        this.filterByInput(e);
-                                    }} style={{width: "100%"}} placeholder='Filter by' type='text'/>
-                                </div>
-                            </div>
+                            
                         </div>
                         <div className='tile is-ancestor' style={{flexWrap: "wrap"}}>
                             {
