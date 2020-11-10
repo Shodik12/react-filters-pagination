@@ -11,8 +11,12 @@ const color = () => {
 
 const designer = () => {
     return ([
-        {"uname":Ralph Lauren},
-        {"uname":Ralph Laurens},
+        'Cashmere',
+        'Cardigans',
+        'Crew and Scoop',
+        'V-Neck',
+        'Shoes',
+        'Cowl & Turtleneck'
     ]);
 };
 
