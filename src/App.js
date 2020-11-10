@@ -61,29 +61,7 @@ class App extends Component {
                 </section>
                 <section className='section'>
                     <div className='container'>
-                        <nav className="pagination" role="navigation" aria-label="pagination">
-                            <button className="button pagination-previous" onClick={() => {
-                                this.previousPage()
-                            }}>Previous
-                            </button>
-                            <button className="button pagination-next" onClick={() => {
-                                this.nextPage()
-                            }}>Next page
-                            </button>
-                            <ul className="pagination-list">
-                                {
-                                    [...Array(this.props.state.filteredPages)].map((value, index) => (
-                                        <button
-                                            className={`button pagination-link ${this.props.state.currentPage === index + 1 ? "is-current" : ""}`}
-                                            aria-label="Page 1"
-                                            onClick={() => this.goToPage(index + 1)}
-                                            aria-current="page">
-                                            {index + 1}
-                                        </button>
-                                    ))
-                                }
-                            </ul>
-                        </nav>
+                        
 
                     </div>
                 </section>
@@ -144,7 +122,29 @@ class App extends Component {
                     </div>
                 </section>
             </div>
-
+<nav className="pagination" role="navigation" aria-label="pagination">
+                            <button className="button pagination-previous" onClick={() => {
+                                this.previousPage()
+                            }}>Previous
+                            </button>
+                            <button className="button pagination-next" onClick={() => {
+                                this.nextPage()
+                            }}>Next page
+                            </button>
+                            <ul className="pagination-list">
+                                {
+                                    [...Array(this.props.state.filteredPages)].map((value, index) => (
+                                        <button
+                                            className={`button pagination-link ${this.props.state.currentPage === index + 1 ? "is-current" : ""}`}
+                                            aria-label="Page 1"
+                                            onClick={() => this.goToPage(index + 1)}
+                                            aria-current="page">
+                                            {index + 1}
+                                        </button>
+                                    ))
+                                }
+                            </ul>
+                        </nav>
         );
     }
 }
