@@ -71,7 +71,7 @@ class App extends Component {
                                         <div className='tile is-child box'>
                                             <p>
                                                 <b>Name: </b>
-                                                {product.name}
+                                                {product.uname}
                                             </p>
                                             <p>
                                                 <b>Designer: </b>
