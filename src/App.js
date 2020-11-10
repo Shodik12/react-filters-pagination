@@ -59,12 +59,7 @@ class App extends Component {
                         </div>
                     </div>
                 </section>
-                <section className='section'>
-                    <div className='container'>
-                        
-
-                    </div>
-                </section>
+                
                 <section className='section'>
                     <div className='container'>
                         <div>
@@ -98,7 +93,6 @@ class App extends Component {
                         </div>
                     </div>
                 </section>
-            </div>
 <nav className="pagination" role="navigation" aria-label="pagination">
                             <button className="button pagination-previous" onClick={() => {
                                 this.previousPage()
@@ -122,6 +116,9 @@ class App extends Component {
                                 }
                             </ul>
                         </nav>
+
+            </div>
+
         );
     }
 }
